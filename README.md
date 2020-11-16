@@ -13,7 +13,7 @@ To install this script, follow these steps (on MacOS):
 
 
 1. Clone this repository
-2. Create the folder /Users/<user>/Library/Preferences/Adobe Indesign/Version 16.0/<language|e.g. de_DE>/Scripts/Startup Scripts
+2. Create the folder /Users/`<User>`/Library/Preferences/Adobe Indesign/Version 16.0/`<language|e.g. de_DE>`/Scripts/Startup Scripts
 3. Place the .jsx Script into the Startup Scripts folder
 
 If you don't paste it into the Startup Scripts folder, it will not work!
