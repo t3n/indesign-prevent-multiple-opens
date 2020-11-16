@@ -15,19 +15,19 @@ function customAlert(message, delaySeconds, title) {
         control_close.onClick = function(){
             if(alertWindow){
 				alertWindow.hide();
-				app.activeDocument.close(SaveOptions.DONOTSAVECHANGES);
+				app.activeDocument.close();
             }
         };
     }
 
     alertWindow.show();
     alertWindow.update();
-   
+
     if(delaySeconds > 0){
         $.sleep(delaySeconds * 1000);
         alertWindow.hide();
         alertWindow = null;
-    }  
+    }
 }
 
 function createTxtFile(event) {
