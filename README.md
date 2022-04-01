@@ -29,7 +29,7 @@ Alternatively, you can locate the folder following these steps:
 2. Visit `Window -> Utilities -> Scripts`
 3. Right click on “User” and select reveal in Finder/Explorer to open the Scripts folder
 
-After you have located the directory, create a new folder called `Startup Scripts` (exact case and spacing and then copy/drag the [prevent-multiple-opens.jsx](prevent-multiple-opens.jsx) file into that folder. Then, restart InDesign.
+After you have located the directory, create a new folder called `Startup Scripts` (exact case and spacing and then save/copy/drag the [prevent-multiple-opens.jsx](../../raw/master/prevent-multiple-opens.jsx) file into that folder. Then, restart InDesign.
 
 ## Special thanks
 This script is heavily based on [Kasyan Servetsky's Script](http://kasyan.ho.ua/indesign/event_scripts/warn_about_docs_open_on_dropbox/warn_about_docs_open_on_dropbox.html) for InDesign files handled through Dropbox.
